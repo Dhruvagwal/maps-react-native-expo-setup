@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Dhruv Aggarwal\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\Dhruv Aggarwal\anaconda3;C:\Users\Dhruv Aggarwal\anaconda3\Library\mingw-w64\bin;C:\Users\Dhruv Aggarwal\anaconda3\Library\usr\bin;C:\Users\Dhruv Aggarwal\anaconda3\Library\bin;C:\Users\Dhruv Aggarwal\anaconda3\Scripts;C:\Users\Dhruv Aggarwal\anaconda3\bin;C:\Users\Dhruv Aggarwal\anaconda3\condabin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\PuTTY;C:\MinGW\bin;C:\Users\Dhruv Aggarwal;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files (x86);C:\Users\Dhruv Aggarwal\anaconda3;C:\Users\Dhruv Aggarwal\anaconda3\Scripts;C:\Program Files\Tesseract-OCR\tesseract.exe;C:\Users\Dhruv Aggarwal\AppData\Local\Android\Sdk\platform-tools\adb.exe;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Dhruv Aggarwal\AppData\Local\Microsoft\WindowsApps;C:\Users\Dhruv Aggarwal\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Dhruv Aggarwal\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2020.2.2\bin;.;C:\Users\Dhruv Aggarwal\anaconda3;C:\Users\Dhruv Aggarwal\anaconda3\Scripts;C:\Program Files\heroku\bin;C:\Program Files\Tesseract-OCR\tesseract.exe;C:\Users\Dhruv Aggarwal\AppData\Local\Android\Sdk\platform-tools;C:\Users\Dhruv Aggarwal\AppData\Roaming\npm;.
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.13.18.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Dhruv Aggarwal\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141289:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:784:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:483:8)
+      at listOnTimeout (internal/timers.js:554:17)
+      at processTimers (internal/timers.js:497:7)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~40.0.0",
+      "expo-status-bar": "~1.0.3",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+      "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
